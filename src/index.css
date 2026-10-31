@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Manrope", system-ui, -apple-system, sans-serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-bihani-teal: #147a82;
+  --color-bihani-dark: #0f3f45;
+}
+
+/* Custom scrollbars for color swatches */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 163, 184, 0.4);
+  border-radius: 9999px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 116, 139, 0.6);
+}

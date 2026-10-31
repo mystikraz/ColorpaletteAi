@@ -1,0 +1,8 @@
+{
+  "name": "Bihani Paints - AI House Color Visualizer",
+  "description": "Interactive exterior and interior house color visualizer for Bihani Paints. Tap to paint architectural wall segments with authentic shade codes, before-and-after comparison slider, and AI photorealistic enhancement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,85 @@
+import { ColorSwatch } from '../types';
+
+export const BIHANI_COLORS: ColorSwatch[] = [
+  // --- Video Featured Blues & Teals (Exterior & Weatherproof) ---
+  { code: '2434C', name: 'Bihani Lagoon Teal', hex: '#147a82', category: 'exterior', sheen: 'satin' },
+  { code: '2413C', name: 'Azure Skyway', hex: '#37a5d8', category: 'exterior', sheen: 'satin' },
+  { code: '2412D', name: 'Himalayan Cyan', hex: '#44badc', category: 'exterior', sheen: 'satin' },
+  { code: '2474T', name: 'Mint Glaze', hex: '#34bfa8', category: 'pastels', sheen: 'matte' },
+  { code: '2398C', name: 'Deep Marine', hex: '#115b63', category: 'exterior', sheen: 'gloss' },
+  { code: '2483C', name: 'Alpine Sea', hex: '#165c58', category: 'exterior', sheen: 'satin' },
+  { code: '2469C', name: 'Pine Forest Teal', hex: '#13474d', category: 'exterior', sheen: 'satin' },
+  { code: '2497C', name: 'Pokhara Deep Waters', hex: '#195c64', category: 'exterior', sheen: 'satin' },
+  { code: '2518C', name: 'Emerald Shadow', hex: '#236961', category: 'exterior', sheen: 'satin' },
+  { code: '2462C', name: 'Malachite Slate', hex: '#186762', category: 'exterior', sheen: 'satin' },
+  { code: '2476C', name: 'Ocean Mist', hex: '#107a70', category: 'accents', sheen: 'satin' },
+  { code: '2504C', name: 'Tropical Jade', hex: '#188e7d', category: 'accents', sheen: 'satin' },
+  { code: '3440D', name: 'Turquoise Breeze', hex: '#24aab8', category: 'pastels', sheen: 'satin' },
+  { code: '2461D', name: 'Persian Aqua', hex: '#16968d', category: 'accents', sheen: 'satin' },
+  { code: '2475D', name: 'Spring Oasis', hex: '#23a995', category: 'pastels', sheen: 'matte' },
+  { code: '2482D', name: 'Aegean Tide', hex: '#2db89e', category: 'pastels', sheen: 'matte' },
+  { code: '2503D', name: 'Breeze Tint', hex: '#33bda4', category: 'pastels', sheen: 'matte' },
+  { code: '2455C', name: 'Midnight Cypress', hex: '#12484f', category: 'exterior', sheen: 'gloss' },
+  { code: '2441C', name: 'Lakeside Shadow', hex: '#186d77', category: 'exterior', sheen: 'satin' },
+  { code: '2460D', name: 'Seafoam Shimmer', hex: '#26a599', category: 'pastels', sheen: 'satin' },
+  { code: '2511C', name: 'Mountain Spruce', hex: '#14645b', category: 'exterior', sheen: 'satin' },
+
+  // --- Video Featured Purples, Mauves & Dusk Slates ---
+  { code: '2252C', name: 'Dusk Heather', hex: '#3b435b', category: 'accents', sheen: 'satin' },
+  { code: '2280C', name: 'Lilac Dusk', hex: '#736582', category: 'interior', sheen: 'matte' },
+  { code: '2287C', name: 'Royal Orchid', hex: '#65577b', category: 'accents', sheen: 'satin' },
+  { code: '2651C', name: 'Kathmandu Plum', hex: '#524462', category: 'accents', sheen: 'satin' },
+  { code: '2329C', name: 'Nightfall Indigo', hex: '#33384c', category: 'accents', sheen: 'satin' },
+  { code: '2889C', name: 'Charcoal Mauve', hex: '#48424a', category: 'neutrals', sheen: 'satin' },
+  { code: '2404D', name: 'Lavender Mist', hex: '#464264', category: 'pastels', sheen: 'matte' },
+  { code: '2882C', name: 'Slate Violet', hex: '#4b5559', category: 'neutrals', sheen: 'satin' },
+  { code: '2370D', name: 'Stormy Sea', hex: '#415d65', category: 'exterior', sheen: 'satin' },
+  { code: '2284C', name: 'Twilight Haze', hex: '#464756', category: 'neutrals', sheen: 'satin' },
+  { code: '2335C', name: 'Velvet Noir', hex: '#373644', category: 'accents', sheen: 'gloss' },
+  { code: '2301C', name: 'Purple Basalt', hex: '#423d53', category: 'accents', sheen: 'satin' },
+
+  // --- Video Featured Earth, Olive & Warm Greys ---
+  { code: '2602C', name: 'Olive Grove', hex: '#475347', category: 'earth', sheen: 'satin' },
+  { code: '2924C', name: 'Pebble Stream', hex: '#444e52', category: 'earth', sheen: 'satin' },
+  { code: '2489D', name: 'Cedar Woodland', hex: '#3a5954', category: 'earth', sheen: 'satin' },
+  { code: '2384D', name: 'Granite Ridge', hex: '#445155', category: 'neutrals', sheen: 'matte' },
+  { code: '2516D', name: 'Valley Pine', hex: '#36644f', category: 'earth', sheen: 'satin' },
+  { code: '2959C', name: 'Mineral Green', hex: '#3c5459', category: 'earth', sheen: 'satin' },
+  { code: '2391D', name: 'Moss Stone', hex: '#374e4e', category: 'earth', sheen: 'satin' },
+  { code: '2510D', name: 'Forest Path', hex: '#2a6552', category: 'earth', sheen: 'satin' },
+  { code: '2459T', name: 'Chitwan Sage', hex: '#366768', category: 'earth', sheen: 'matte' },
+  { code: '2931C', name: 'Himalayan Slate', hex: '#485b60', category: 'neutrals', sheen: 'satin' },
+  { code: '2574C', name: 'Cardamom Meadow', hex: '#58715e', category: 'earth', sheen: 'satin' },
+  { code: '2560C', name: 'Laurel Branch', hex: '#476057', category: 'earth', sheen: 'satin' },
+  { code: '2979D', name: 'River Basin', hex: '#506165', category: 'neutrals', sheen: 'satin' },
+  { code: '2972D', name: 'Glacier Shadow', hex: '#566f71', category: 'pastels', sheen: 'matte' },
+  { code: '2993D', name: 'Cool Limestone', hex: '#4d6269', category: 'neutrals', sheen: 'matte' },
+  { code: '2840C', name: 'Graphite Shingle', hex: '#4a4d52', category: 'neutrals', sheen: 'satin' },
+  { code: '2579C', name: 'Willow Herb', hex: '#536353', category: 'earth', sheen: 'matte' },
+  { code: '2581C', name: 'Highland Moss', hex: '#506b56', category: 'earth', sheen: 'satin' },
+  { code: '2480T', name: 'Eucalyptus', hex: '#397876', category: 'accents', sheen: 'satin' },
+
+  // --- Authentic Exterior Neutrals & Whites ---
+  { code: '1001W', name: 'Everest Snow White', hex: '#f7f8fa', category: 'neutrals', sheen: 'matte' },
+  { code: '1010W', name: 'Chitwan Cream', hex: '#faf4ea', category: 'neutrals', sheen: 'matte' },
+  { code: '1024W', name: 'Lalitpur Heritage Alabaster', hex: '#f2eae1', category: 'neutrals', sheen: 'matte' },
+  { code: '1038W', name: 'Warm Cashmere', hex: '#ebe4d8', category: 'neutrals', sheen: 'matte' },
+  { code: '1050G', name: 'Silver Flute', hex: '#e3e6e8', category: 'neutrals', sheen: 'matte' },
+  { code: '1088G', name: 'Annapurna Fog', hex: '#cbd3d6', category: 'neutrals', sheen: 'satin' },
+
+  // --- Rich Heritage & Accent Warm Tones ---
+  { code: '2105R', name: 'Bhakthapur Terracotta', hex: '#b34732', category: 'accents', sheen: 'satin' },
+  { code: '2140O', name: 'Mustang Ochre', hex: '#c97c36', category: 'earth', sheen: 'matte' },
+  { code: '2188Y', name: 'Marigold Glow', hex: '#d9982a', category: 'accents', sheen: 'satin' },
+  { code: '2215B', name: 'Mahogany Timber', hex: '#582d23', category: 'earth', sheen: 'gloss' },
+];
+
+export const COLOR_CATEGORIES: { id: ColorSwatch['category'] | 'all'; label: string }[] = [
+  { id: 'all', label: 'All Colors' },
+  { id: 'exterior', label: 'Weatherproof Exterior' },
+  { id: 'accents', label: 'Vibrant Accents' },
+  { id: 'pastels', label: 'Pastels & Tints' },
+  { id: 'earth', label: 'Earth & Greens' },
+  { id: 'neutrals', label: 'Neutrals & Whites' },
+  { id: 'interior', label: 'Interior Luxury' },
+];

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bihani Paints - AI House Color Visualizer</title>
+    <meta name="description" content="Interactive exterior and interior house color visualizer for Bihani Paints. Tap to paint architectural wall segments with authentic shade codes, before-and-after comparison slider, and AI photorealistic enhancement." />
+    <meta property="og:title" content="Bihani Paints - AI House Color Visualizer" />
+    <meta property="og:description" content="Interactive exterior and interior house color visualizer for Bihani Paints. Tap to paint architectural wall segments with authentic shade codes, before-and-after comparison slider, and AI photorealistic enhancement." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Bihani Paints - AI House Color Visualizer" />
+    <meta name="twitter:description" content="Tap on any wall or architectural trim to paint your house instantly in authentic Bihani Paints shades with realistic lighting and texture preservation." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+
+    {/* Schema.org Hotel Structured Data */}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Hotel",
+      "name": "Hotel In N Out",
+      "description": "Hotel In N Out provides comfortable modern accommodations, on-site dining restaurant and bar, elevator access, 24-hour reception, and free parking on Machhapokhari Ring Road, Balaju, Kathmandu.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Machhapokhari Ring Road, Balaju",
+        "addressLocality": "Kathmandu",
+        "addressRegion": "Bagmati Province",
+        "postalCode": "44600",
+        "addressCountry": "NP"
+      },
+      "telephone": "+977-1-4950123",
+      "priceRange": "NPR 2500 - NPR 5500",
+      "checkinTime": "14:00",
+      "checkoutTime": "12:00",
+      "starRating": {
+        "@type": "Rating",
+        "ratingValue": "4.5"
+      },
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Free High-Speed Wi-Fi", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "24/7 Front Desk & Check-in", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "On-Site Restaurant & Bar", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Free Secure Parking", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Elevator / Lift Access", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Soundproof Windows", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Hot Rainfall Shower 24/7", "value": true }
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-slate-100 text-slate-800 antialiased font-sans selection:bg-teal-100 selection:text-teal-900 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
